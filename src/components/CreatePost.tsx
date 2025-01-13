@@ -58,7 +58,7 @@ function CreatePost() {
           </div>
 
           {(showImageUpload || imageUrl) && (
-            <div className="border rounded-lg p-4 ">
+            <div className="border rounded-lg p-4">
               <ImageUpload
                 endpoint="postImage"
                 value={imageUrl}
